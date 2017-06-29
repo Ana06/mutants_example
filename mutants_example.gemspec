@@ -5,7 +5,7 @@ require 'mutants_example/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mutants_example"
-  spec.version       = Mutants::Test::VERSION
+  spec.version       = MutantsExample::VERSION
   spec.authors       = ["Ana María Martínez Gómez"]
   spec.email         = ["ammartinez@suse.de"]
 
