@@ -1,5 +1,3 @@
 require "mutants_example/version"
+require 'mutants_example/smoking'
 
-module MutantsExample
-  # Your code goes here...
-end
