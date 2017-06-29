@@ -5,13 +5,12 @@ require 'mutants_example/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mutants_example"
-  spec.version       = MutantsExample::VERSION
+  spec.version       = Mutants::Test::VERSION
   spec.authors       = ["Ana María Martínez Gómez"]
   spec.email         = ["ammartinez@suse.de"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Mutant tests example}
+  spec.homepage      = "http://localhost"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,4 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "mutant-rspec"
 end
